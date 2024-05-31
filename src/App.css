@@ -1,0 +1,61 @@
+/* App.css */
+
+.container {
+  padding: 5px;
+  height: 80vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+ul {
+  margin: 0%;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+main {
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container img {
+  max-width: 37%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+h1, h2 {
+  margin: 5px; 
+}
+
+.agreement-form {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-label {
+  margin-right: 10px; 
+}
